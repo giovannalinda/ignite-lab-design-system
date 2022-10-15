@@ -19,7 +19,7 @@ jobs:
           node-version: 16
       
       - name: Install dependencies
-        run: yarn ci --force
+        run: yarn ci --legacy-peer-deps
 
       - name: Build Storybook
         run: yarn build-storybook
